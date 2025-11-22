@@ -71,7 +71,6 @@
     "vitest": "^3.2.4"
   },
   "eslint": {
-  "ignoreDuringBuilds": true
+    "ignoreDuringBuilds": true
+  }
 }
-}
-
