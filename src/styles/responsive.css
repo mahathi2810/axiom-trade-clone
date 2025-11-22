@@ -1,0 +1,84 @@
+/* Mobile-first responsive utilities */
+
+/* 320px - Extra small devices */
+@media (max-width: 359px) {
+  .token-table {
+    font-size: 0.625rem;
+  }
+  
+  .token-info-cell {
+    max-width: 120px;
+  }
+  
+  .metric-badges {
+    display: none;
+  }
+}
+
+/* 360px - Small mobile */
+@media (min-width: 360px) and (max-width: 639px) {
+  .token-table {
+    font-size: 0.75rem;
+  }
+  
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+/* 640px - Tablet */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .token-table {
+    font-size: 0.8125rem;
+  }
+  
+  .hide-on-tablet {
+    display: none;
+  }
+}
+
+/* 1024px+ - Desktop */
+@media (min-width: 1024px) {
+  .token-table {
+    font-size: 0.875rem;
+  }
+}
+
+/* Container max-widths */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}

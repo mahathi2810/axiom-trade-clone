@@ -1,0 +1,16 @@
+/* Fix TanStack React Query DevTools z-index */
+[class*="ReactQueryDevtools"] {
+  z-index: 99999 !important;
+}
+
+[class*="ReactQueryDevtoolsPanel"] {
+  z-index: 99999 !important;
+  pointer-events: auto !important;
+}
+
+/* Ensure the toggle button is clickable */
+button[aria-label*="Open React Query Devtools"],
+button[aria-label*="Close React Query Devtools"] {
+  z-index: 99999 !important;
+  pointer-events: auto !important;
+}
